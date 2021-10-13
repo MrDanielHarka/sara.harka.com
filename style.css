@@ -1,0 +1,96 @@
+body {
+  margin: 1px auto;
+  max-width: 850px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #222;
+  padding: 0 1px;
+}
+
+a,
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #19b900;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: green;
+  /* padding: 2em; */
+}
+
+img {
+  border-radius: 50%;
+}
+
+#logo {
+  color: green;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1em 0;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-items: center;
+  padding: 1px 1rem;
+}
+
+#name {
+  font-weight: normal;
+  font-size: 40px;
+  color: green;
+}
+
+main {
+  padding: 0.5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#goToTop {
+  position: fixed;
+  font-size: 2rem;
+  bottom: 2vw;
+  right: 3vw;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  color: green;
+  transition: all 0.2s ease-in-out;
+}
+
+#goToTop:hover {
+  transform: scale(1.5) rotate(-90deg);
+}
